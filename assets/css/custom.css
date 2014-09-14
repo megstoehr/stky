@@ -1,1 +1,40 @@
 /* This is where you write your custom CSS styles! You may edit from the main.css or simply add it in here and it will overwrite the styles. */
+#hero {
+	background: #00334d;
+}
+
+.hero_content h1 {
+	font-size: 56px;
+}
+.hero_content p {
+	font-size: 21px;
+}
+
+.hero-slide_nav {
+	opacity: 0;
+}
+
+footer {
+	background: #eee;
+	color: #666;
+}
+
+.btn {
+	font-weight: 300;
+}
+/*
+.img-btn {
+	padding: 2px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	border-bottom: 0px;
+	padding-bottom: 0;
+	margin-top: 10px;
+}
+*/
+
+.download-btn {
+	margin-top: 35px;
+	display: block;
+}

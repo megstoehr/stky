@@ -88,7 +88,7 @@
 	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0 }
 
 	/* Links */
-	a { color: #e74c3c; text-decoration: none; }
+	a { color: #b33e3e; text-decoration: none; }
 	a:hover { color: #b63729; text-decoration: none; }
 
 
@@ -97,7 +97,7 @@
 	/* Normal Button */
 	.btn {
 		display: inline-block;
-		background: #e74c3c;
+		background: #b33e3e;
 		margin: 3px;
 		padding: 10px 20px;
 		border: 0;
@@ -141,7 +141,7 @@
 		position: relative;
 		z-index: 1;
 		background: #fff;
-		color: #e74c3c;
+		color: #b33e3e;
 		border-radius: 5px 0 0 5px;
 		border-bottom: 3px solid #b6b6b6;
 		-webkit-box-shadow: 5px 0 0 rgba(255,255,255,0.3);
@@ -150,7 +150,7 @@
 	}
 
 	.btn-group .btn:last-child {
-		background: #e74c3c;
+		background: #b33e3e;
 		color: #fff;
 		border-radius: 0 5px 5px 0;
 		border-bottom: 3px solid #b63729;
@@ -166,7 +166,7 @@
 	.btn:hover, .btn:active,
 	.btn-group:hover .btn:last-child,
 	.btn-group:active .btn:last-child {
-		background: #f15c4d;
+		background: #e55050;
 	}
 
 	.btn-group:active .btn,
@@ -328,13 +328,20 @@
 	}
 
 	/* Current State on Nav */
-	#nav li.current a { color: #e74c3c; }
+	#nav li.current a { color: #b33e3e; }
 	
 	/* Responsive Nav */
 	.tinynav { display: none; }
 
 	#logo, #hidden_logo {
 		background: url("../img/logo.png") center no-repeat;
+	}
+	@media all and (-webkit-min-device-pixel-ratio: 1.5),
+	all and (min-device-pixel-ratio: 1.5) {
+	  #logo {
+	    background-image: url("../img/logo@2x.png");
+		background-size: 106px 60px;
+	  }
 	}
 	
 	/* Logo */
@@ -351,7 +358,7 @@
 	/* Hero Container */
 	#hero {
 		background: #3b3b3b url("../img/pat.png");
-		border-bottom: 15px solid #e74c3c;
+		border-bottom: 15px solid #b33e3e;
 		color: #fff;
 		padding-top: 99px;
 	}
@@ -364,7 +371,7 @@
 	
 	
 	.hero_content h1 b {
-		color: #e74c3c;
+		color: #b33e3e;
 		font: 400 72px/72px "Arvo";
 	}
 	
@@ -594,7 +601,7 @@
 
 	.icon-flight { 
 		font-size: 326px; 
-		color: #e74c3c; 
+		color: #b33e3e; 
 		line-height: 250px; 
 		position: absolute; 
 		right: 0; 
@@ -640,7 +647,7 @@
 
 	/* Feature Texts */
 	.intro_text h3 { 
-		color: #e74c3c; 
+		color: #b33e3e; 
 	}
 
 	.intro_text p { 
@@ -669,7 +676,7 @@
 	/* Magnifier */
 	.loupe {
 		background: none;
-		border: 4px solid #e74c3c;
+		border: 4px solid #b33e3e;
 		-webkit-border-radius: 15px;
 		   -moz-border-radius: 15px;
 				border-radius: 15px;
@@ -681,7 +688,7 @@
 	
 	/* Feature Container */
 	#feature {
-		background: #e74c3c url("../img/pat.png") center;
+		background: #b33e3e url("../img/pat.png") center;
 		padding: 90px 0;
 		box-shadow: inset 0 3px 0 rgba(0,0,0,0.1), inset 0 -3px 0 rgba(0,0,0,0.1);
 	}

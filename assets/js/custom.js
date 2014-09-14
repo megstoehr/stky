@@ -10,9 +10,9 @@ $('#nav').onePageNav({
 });
 
 // TinyNav.js
-$('#nav').tinyNav({
+/*$('#nav').tinyNav({
 	header: 'Navigation' // Writing any title with this option triggers the header
-});
+});*/
 	  
 // Loupe.js
 $('.phone-preview').loupe();
