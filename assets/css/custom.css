@@ -38,3 +38,8 @@ footer {
 	margin-top: 35px;
 	display: block;
 }
+
+.mixpanel-badge {
+	text-align: center;
+	display: block;
+}
